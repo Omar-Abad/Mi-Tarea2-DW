@@ -1,0 +1,85 @@
+/* Reseteo de márgenes y padding */
+* {
+    margin: 0; /* Elimina el margen por defecto de todos los elementos */
+    padding: 0; /* Elimina el padding por defecto de todos los elementos */
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    background: rgb(160, 157, 157); /* Define el color de fondo del cuerpo de la página usando valores RGB */
+}
+
+/* Estilos de contenedores principales */
+header, main, footer, div, aside {
+    width: 100%; /* Establece el ancho de estos elementos al 100% del contenedor padre */
+    max-width: 1000px; /* Limita el ancho máximo a 1000px para estos elementos */
+    margin: 20px auto; /* Centra los elementos horizontalmente y agrega un margen de 20px en la parte superior e inferior */
+}
+
+/* Estilos de navegación */
+header nav {
+    background: rgb(117, 150, 211); /* Establece el color de fondo de la barra de navegación usando valores RGB */
+    overflow: hidden; /* Oculta cualquier contenido que desborde el contenedor de navegación */
+}
+
+header nav ul {
+    list-style: none; /* Elimina los puntos de viñeta de la lista no ordenada */
+}
+
+header nav ul li {
+    float: left; /* Alinea los elementos de la lista (enlaces de navegación) a la izquierda */
+}
+
+header nav ul li a {
+    padding: 30px 40px; /* Agrega padding de 30px arriba y abajo, y 40px a los lados a los enlaces de navegación */
+    color: rgb(250, 250, 250); /* Define el color del texto de los enlaces usando valores RGB */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilos del contenedor principal */
+main {
+    display: flex; /* Usa flexbox para el diseño del contenedor principal */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos hijos de manera uniforme */
+}
+
+/* Estilos de los artículos en el main */
+.contenido {
+    width: 70%; /* Establece el ancho del contenedor con clase 'contenido' al 70% del ancho del contenedor principal */
+}
+
+.contenido article {
+    background: rgb(255, 255, 255); /* Define el color de fondo de los artículos dentro del contenedor 'contenido' usando valores RGB */
+    margin-bottom: 20px; /* Agrega un margen de 20px en la parte inferior de los artículos */
+    padding: 10px; /* Agrega un padding de 10px en todos los lados de los artículos */
+}
+
+/* Estilos del aside */
+aside {
+    width: 28%; /* Establece el ancho del aside al 28% del ancho del contenedor principal */
+}
+
+aside article {
+    background-color: orange; /* Define el color de fondo de los artículos dentro del aside como naranja */
+    padding: 10px; /* Agrega un padding de 10px en todos los lados de los artículos dentro del aside */
+}
+
+/* Estilo para el footer */
+footer {
+    width: 100%; /* Establece el ancho del pie de página al 100% del contenedor padre */
+    height: 60px; /* Define la altura del pie de página como 60px */
+    background-color: black; /* Define el color de fondo del pie de página como negro */
+    margin: 100px -10; /* Establece un margen de 100px en la parte superior e inferior, y -10px a los lados (lo que puede causar un desbordamiento) */
+    align-self: center; /* Intenta alinear el footer al centro, pero en este caso puede no tener efecto */
+}
+
+/* Estilo para los artículos */
+article {
+    margin-bottom: 10px; /* Agrega un margen de 10px en la parte inferior de todos los artículos */
+}
+
+/* Estilo para los párrafos */
+p {
+    margin-bottom: 10px; /* Agrega un margen de 10px en la parte inferior de todos los párrafos */
+}
+
+
